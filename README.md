@@ -1,41 +1,42 @@
 # ACID Security Tools
 
-A collection of small security tools developed by the ACID community for
-learning, experimentation and practical cybersecurity development.
+Uma coleção de pequenas ferramentas de segurança desenvolvidas pela comunidade
+ACID para aprendizado, experimentação e desenvolvimento prático em
+cibersegurança.
 
-The repository brings together tools created while studying cybersecurity,
-programming and networking, with a focus on understanding how security
-concepts can be implemented in practice.
+O repositório reúne ferramentas criadas durante os estudos de cibersegurança,
+programação e redes, com foco em compreender na prática como conceitos de
+segurança podem ser implementados.
 
 > **ACID — Assembleia de Cibersegurança e Inteligência Digital**
 
-## Tools
+## Ferramentas
 
 ### C
 
 #### Port Scanner
 
-A simple TCP port scanner written in C.
+Um simples scanner de portas TCP desenvolvido em C.
 
-- Language: C
-- Category: Network Security
-- Protocol: TCP
+- Linguagem: C
+- Categoria: Segurança de Redes
+- Protocolo: TCP
 
-[View the Port Scanner](./c/port_scanner/)
+[Ver o Port Scanner...](./c/port_scanner/)
 
-## Languages
+## Linguagens
 
-Currently used languages:
+Linguagens utilizadas atualmente:
 
 - C
 - Python
 - Bash
 
-The repository is intentionally open to tools written in different
-languages. The goal is to learn, experiment and develop practical
-cybersecurity projects.
+O repositório é aberto a ferramentas desenvolvidas em diferentes linguagens.
+O objetivo é aprender, experimentar e desenvolver projetos práticos
+relacionados à cibersegurança.
 
-## Repository Structure
+## Estrutura do Repositório
 
 ```
 security-tools/
@@ -49,26 +50,24 @@ security-tools/
 ├── python/
 │
 └── bash/
-
 ```
+*( Novas ferramentas serão adicionadas conforme a coleção crescer. )*
 
-Additional tools will be added as the collection grows.
+## Contribuindo
 
-## Contributing
+Contribuições são bem-vindas.
 
-Contributions are welcome.
+Se você deseja adicionar uma ferramenta, melhorar uma implementação existente
+ou sugerir uma ideia, consulte as diretrizes de contribuição do projeto.
 
-If you want to add a tool, improve an existing implementation or suggest
-an idea, please follow the project's contribution guidelines.
+Veja o [CONTRIBUTING.md](https://github.com/ACID-Org/acid/blob/main/CONTRIBUTING.md).
 
-See [CONTRIBUTING.md](https://github.com/ACID-Org/acid/blob/main/CONTRIBUTING.md).
+## Aviso
 
-## Disclaimer
+Estas ferramentas são desenvolvidas para fins educacionais e de pesquisa.
 
-These tools are developed for educational and research purposes.
+Utilize ferramentas de segurança somente em sistemas que você possui ou para
+os quais tenha autorização explícita para realizar testes.
 
-Only use security tools on systems you own or have explicit permission
-to test.
-
-The ACID community is not responsible for misuse of the tools contained
-in this repository.
+A comunidade ACID não se responsabiliza pelo uso indevido das ferramentas
+disponibilizadas neste repositório.
